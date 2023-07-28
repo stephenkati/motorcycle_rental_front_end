@@ -1,4 +1,5 @@
 /** @type {import('tailwindcss').Config} */
+/* eslint-disable */ 
 export default {
   content: [
     "./src/**/*.{js,jsx,ts,tsx}",

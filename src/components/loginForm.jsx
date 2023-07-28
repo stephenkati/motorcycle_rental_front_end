@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { Link, useNavigate } from 'react-router-dom';
 import { logInUser } from '../redux/slices/userSlice';
@@ -83,7 +83,7 @@ const LoginForm = () => {
       </form>
 
       <h2 className="text-secondary">
-        Don't have an account?
+        Don&apos;t have an account?
         <Link to="/register" className="text-xl text-accent hover:text-primary">
           Register
         </Link>
